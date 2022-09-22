@@ -10,3 +10,7 @@ $array = [
 ];
 
 print_r($array);
+echo "<br><br><br>Media: ";
+print_r((array_sum($array)/count($array)));
+echo "<br>Suma: ";
+print_r(array_sum($array));
